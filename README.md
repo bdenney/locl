@@ -3,7 +3,14 @@ Locl
 This was my Tumblr May 2014 Hackday project. It's an Android application that allows a user to look at Tumblr posts associated with Foursquare venues.
 
 ##Building
-To get this application working correctly, you must sign up for API keys from both [Tumblr](https://www.tumblr.com/oauth/apps) and [Foursquare](https://foursquare.com/developers/apps). Once this has been completed, enter the client ID and secret for each service in `gradle.properties`.
+To get this application working correctly, you must sign up for API keys from both [Tumblr](https://www.tumblr.com/oauth/apps) and [Foursquare](https://foursquare.com/developers/apps).
+
+Create a `gradle.properties` file in the root of the project with these values:
+
+    tumblrClientId=""
+    tumblrSecret=""
+    foursquareClientId=""
+    foursquareSecret=""
 
 ##Libraries
 * [Guava](https://code.google.com/p/guava-libraries/)
