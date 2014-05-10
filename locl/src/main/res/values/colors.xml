@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<color name="transparent">#00000000</color>
+	<color name="almost_black">#202020</color>
+	<color name="half_transparent_almost_black">#88202020</color>
+	<color name="almost_white">#EFEFEF</color>
+	<color name="error_red">#BF3030</color>
+
+	<color name="random_1">#9c609f</color>
+	<color name="random_2">#d2e7f3</color>
+	<color name="random_3">#45ba8d</color>
+	<color name="random_4">#671921</color>
+	<color name="random_5">#f2c497</color>
+
+</resources>

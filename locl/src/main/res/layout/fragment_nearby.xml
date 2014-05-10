@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<android.support.v4.widget.SwipeRefreshLayout
+		android:id="@+id/swipe_refresh_layout"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
+		<ListView
+			android:id="@+id/list_nearby_venues"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent" />
+
+	</android.support.v4.widget.SwipeRefreshLayout>
+
+	<TextView
+		android:id="@+id/nearby_empty"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:padding="15dp"
+		android:textSize="22sp"
+		android:layout_centerInParent="true"
+		android:fontFamily="sans-serif"
+		android:textColor="@color/almost_white"
+		android:text="@string/no_venues"
+		android:visibility="gone" />
+</RelativeLayout>

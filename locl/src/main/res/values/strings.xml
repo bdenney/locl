@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Locl</string>
+	<string name="location_error">Unable to get location</string>
+	<string name="search_venues">Search venues</string>
+	<string name="refresh">Refresh</string>
+	<string name="no_posts">No posts</string>
+	<string name="no_venues">No venues</string>
+	<string name="trending">Trending</string>
+</resources>
+
