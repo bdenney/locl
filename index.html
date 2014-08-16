@@ -31,7 +31,60 @@
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
-        <h3>
+        <h3>Locl</h3>
+        <p>
+        This was my Tumblr May 2014 Hackday project. It's an Android application that allows a user to look at Tumblr posts associated with Foursquare venues.
+        </p>
+
+        <h3>Building</h3>
+        <p>
+        To get this application working correctly, you must sign up for API keys from both [Tumblr](https://www.tumblr.com/oauth/apps) and [Foursquare](https://foursquare.com/developers/apps).
+
+        Create a `gradle.properties` file in the root of the project with these values:
+        </p>
+        </code></pre>
+        tumblrClientId=""
+        tumblrSecret=""
+        foursquareClientId=""
+        foursquareSecret=""
+        </code></pre>
+        
+        <h3>Libraries</h3>
+        <ul>
+          <li><a class="anchor" href="https://code.google.com/p/guava-libraries/">Guava</a></li>
+          <li><a class="anchor" href="https://android.googlesource.com/platform/frameworks/volley/">Volley</a></li>
+          <li><a class="anchor" href="https://code.google.com/p/google-gson/">Gson</a></li>
+          <li><a class="anchor" href="http://square.github.io/picasso/">Picasso</a></li>
+          <li><a class="anchor" href="https://github.com/tumblr/jumblr">Jumblr</a></li>
+          <li><a class="anchor" href="https://github.com/etsy/AndroidStaggeredGrid">AndroidStaggeredGrid</a></li>
+          <li><a class="anchor" href="https://github.com/chrisbanes/PhotoView">PhotoView</a></li>
+        </ul>
+
+      <h3>License</h3>
+      <pre><code>
+        The MIT License (MIT)
+
+        Copyright (c) 2014 Tumblr
+
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+    
+        The above copyright notice and this permission notice shall be included in
+        all copies or substantial portions of the Software.
+    
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+        THE SOFTWARE.
+        </code></pre>
+
 <a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
 
 <p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
